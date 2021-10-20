@@ -70,6 +70,10 @@ public class VentureBuilder {
         return this;
     }
 
+    /**
+     * Use this to disable the default {@link HelpCommand} command
+     * @see HelpCommand
+     */
     public VentureBuilder noHelp() {
         helpCommand = false;
         return this;
