@@ -59,6 +59,19 @@ public class PingCommand implements MessageCommand {
   @Override
   public void execute(CommandEvent event) {
     event.reply("Pong! " + event.getJDA().getRestPing().complete() + "ms");
+    /*
+    You can get all arguments by using event#getArguments() or a single argument at a specific index by using event#getArgument(int index) -> String
+    */
   }
 }
+```
+
+## Getting command attributes
+
+To get the attributes of a command simply use the class CommandHelper
+```java
+CommandInfo info = CommandHelper.getInfo(MessageCommand command);
+System.out.println(info.getName());
+System.out.println(info.getCategory());
+//...
 ```
