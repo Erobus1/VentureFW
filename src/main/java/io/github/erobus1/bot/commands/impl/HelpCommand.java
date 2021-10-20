@@ -25,7 +25,7 @@ public class HelpCommand implements MessageCommand {
         embed.setTitle("Help");
         if (event.hasNoArgs()) {
             embed.setDescription(Venture.getBotInfo());
-            embed.addField("Please provide either a command or a category. Available categories:", "`" + String.join("`, `", Venture.getCmdHandler().getCategories().toArray(String[]::new)) + "`", false);
+            embed.addField("Please provide either a command or a category. Available categories:", "`" + String.join("`, `", Venture.getCmdHandler().getCategories().toArray(new String[0])) + "`", false);
             event.reply(embed);
             return;
         }

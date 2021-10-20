@@ -113,6 +113,6 @@ public class VentureBuilder {
             ));
         }
 
-        Venture.create(TOKEN, DEVELOPERS, PREFIX, EVENT_LISTENERS.toArray(ListenerAdapter[]::new), COMMANDS.toArray(MessageCommand[]::new), BOT_INFO);
+        Venture.create(TOKEN, DEVELOPERS, PREFIX, EVENT_LISTENERS.toArray(new ListenerAdapter[0]), COMMANDS.toArray(new MessageCommand[0]), BOT_INFO);
     }
 }
