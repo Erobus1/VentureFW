@@ -1,8 +1,8 @@
-package me.erobus.bot.commands.util;
+package io.github.erobus1.bot.commands.util;
 
-import me.erobus.bot.commands.MessageCommand;
-import me.erobus.bot.commands.Command;
-import me.erobus.internal.exceptions.InvalidUsageException;
+import io.github.erobus1.bot.commands.MessageCommand;
+import io.github.erobus1.bot.commands.Command;
+import io.github.erobus1.internal.exceptions.InvalidUsageException;
 
 public class CommandHelper {
 

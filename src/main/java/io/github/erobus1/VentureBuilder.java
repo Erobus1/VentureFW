@@ -1,9 +1,9 @@
-package me.erobus;
+package io.github.erobus1;
 
-import me.erobus.bot.commands.MessageCommand;
-import me.erobus.bot.commands.impl.HelpCommand;
-import me.erobus.bot.defaultlisteners.CommandListener;
-import me.erobus.internal.Logger;
+import io.github.erobus1.bot.commands.MessageCommand;
+import io.github.erobus1.bot.commands.impl.HelpCommand;
+import io.github.erobus1.bot.defaultlisteners.CommandListener;
+import io.github.erobus1.internal.Logger;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
 import java.util.ArrayList;

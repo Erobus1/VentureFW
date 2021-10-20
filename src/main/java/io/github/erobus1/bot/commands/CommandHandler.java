@@ -1,13 +1,13 @@
-package me.erobus.bot.commands;
+package io.github.erobus1.bot.commands;
 
-import me.erobus.Venture;
-import me.erobus.bot.commands.util.CommandHelper;
-import me.erobus.bot.commands.util.Permission;
-import me.erobus.internal.Logger;
-import me.erobus.internal.Note;
-import me.erobus.internal.embeds.DefaultEmbeds;
-import me.erobus.internal.exceptions.InvalidUsageException;
-import me.erobus.internal.exceptions.MissingAnnotationException;
+import io.github.erobus1.Venture;
+import io.github.erobus1.bot.commands.util.CommandHelper;
+import io.github.erobus1.bot.commands.util.Permission;
+import io.github.erobus1.internal.Logger;
+import io.github.erobus1.internal.Note;
+import io.github.erobus1.internal.embeds.DefaultEmbeds;
+import io.github.erobus1.internal.exceptions.InvalidUsageException;
+import io.github.erobus1.internal.exceptions.MissingAnnotationException;
 import net.dv8tion.jda.api.EmbedBuilder;
 
 import java.util.ArrayList;

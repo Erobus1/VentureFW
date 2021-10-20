@@ -1,4 +1,4 @@
-package me.erobus.internal;
+package io.github.erobus1.internal;
 
 public class Logger {
     private static final String RESET = "\u001B[0m";

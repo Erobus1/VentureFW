@@ -1,6 +1,6 @@
-package me.erobus.bot.commands.util;
+package io.github.erobus1.bot.commands.util;
 
-import me.erobus.Venture;
+import io.github.erobus1.Venture;
 import net.dv8tion.jda.api.entities.Member;
 
 import java.util.function.Function;

@@ -1,4 +1,4 @@
-package me.erobus.bot.commands.util;
+package io.github.erobus1.bot.commands.util;
 
 public class Usage {
     private int minArgs = 0;

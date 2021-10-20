@@ -1,4 +1,4 @@
-package me.erobus.internal;
+package io.github.erobus1.internal;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

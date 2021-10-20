@@ -1,7 +1,7 @@
-package me.erobus.bot.defaultlisteners;
+package io.github.erobus1.bot.defaultlisteners;
 
-import me.erobus.Venture;
-import me.erobus.bot.commands.CommandEvent;
+import io.github.erobus1.Venture;
+import io.github.erobus1.bot.commands.CommandEvent;
 import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import org.jetbrains.annotations.NotNull;

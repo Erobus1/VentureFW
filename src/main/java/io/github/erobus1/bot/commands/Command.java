@@ -1,6 +1,6 @@
-package me.erobus.bot.commands;
+package io.github.erobus1.bot.commands;
 
-import me.erobus.bot.commands.util.Permission;
+import io.github.erobus1.bot.commands.util.Permission;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

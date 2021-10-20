@@ -1,4 +1,4 @@
-package me.erobus.internal.exceptions;
+package io.github.erobus1.internal.exceptions;
 
 
 /**

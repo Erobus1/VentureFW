@@ -1,9 +1,9 @@
-package me.erobus;
+package io.github.erobus1;
 
-import me.erobus.bot.commands.CommandHandler;
-import me.erobus.bot.commands.MessageCommand;
-import me.erobus.internal.exceptions.InvalidUsageException;
-import me.erobus.internal.exceptions.MissingAnnotationException;
+import io.github.erobus1.bot.commands.CommandHandler;
+import io.github.erobus1.bot.commands.MessageCommand;
+import io.github.erobus1.internal.exceptions.InvalidUsageException;
+import io.github.erobus1.internal.exceptions.MissingAnnotationException;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;

@@ -1,4 +1,4 @@
-package me.erobus.internal.embeds;
+package io.github.erobus1.internal.embeds;
 
 import net.dv8tion.jda.api.EmbedBuilder;
 

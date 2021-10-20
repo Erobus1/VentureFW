@@ -1,4 +1,4 @@
-package me.erobus.bot.commands;
+package io.github.erobus1.bot.commands;
 
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.entities.MessageEmbed;
