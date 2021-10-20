@@ -26,8 +26,8 @@ VentureBuilder builder = VentureBuilder.createDefault(token);
 /*
 * You can manage client options for example
 * builder.setPrefix(prefix); - Set the bot's prefix (default !)
-* builder.addListeners(jda listeners); - Add more listeners to the bot
-* builder.addCommands(MessageCommands); - Add commands to the bot, example command below
+* builder.addListeners(jda listeners...); - Add more listeners to the bot
+* builder.addCommands(MessageCommands...); - Add commands to the bot, example command below
 * builder.setDevelopers(developer ids...); - n amount of developer ids to use for the Permission system
 * builder.setBotInfo(text); - A short information text what you bot is about. Text is used in the default help command and can be retrieved at any time with Venture#getBotInfo
 * builder.noHelp(); - Disable the default help command so you can use your own
