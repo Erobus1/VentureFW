@@ -12,7 +12,7 @@ repositories {
 
 ```java
 dependencies {
-  implementation 'com.github.Erobus1:VentureFW:9c9abf904c'
+  implementation 'com.github.Erobus1:VentureFW:5a04ce2e69'
 }
 ```
 
