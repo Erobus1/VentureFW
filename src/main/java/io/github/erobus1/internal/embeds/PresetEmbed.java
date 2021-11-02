@@ -2,7 +2,7 @@ package io.github.erobus1.internal.embeds;
 
 import net.dv8tion.jda.api.EmbedBuilder;
 
-import java.awt.*;
+import java.awt.Color;
 
 public interface PresetEmbed {
     EmbedBuilder SUCCESS = new EmbedBuilder()

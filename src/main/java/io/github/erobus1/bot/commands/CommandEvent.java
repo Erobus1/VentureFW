@@ -45,15 +45,15 @@ public class CommandEvent extends GuildMessageReceivedEvent {
     }
 
     public void reply(String message) {
-        getChannel().sendMessage(message).queue();
+        getChannel().sendMessage(message).reference(getMessage()).mentionRepliedUser(false).queue();
     }
 
     public void reply(EmbedBuilder embed) {
-        getChannel().sendMessageEmbeds(embed.build()).queue();
+        getChannel().sendMessageEmbeds(embed.build()).reference(getMessage()).mentionRepliedUser(false).queue();
     }
 
     public void reply(MessageEmbed embed) {
-        getChannel().sendMessageEmbeds(embed).queue();
+        getChannel().sendMessageEmbeds(embed).reference(getMessage()).mentionRepliedUser(false).queue();
     }
 
     public boolean hasNoArgs() {
